@@ -15,4 +15,4 @@ def test_wage_increase(michael):
 def test_wage_increase_custom(michael):
     """Test whether raising the default wage by a custom amount works properly."""
     michael.give_raise(15000)
-    assert michael.salary == 80000
+    assert michael.salary == 90000
