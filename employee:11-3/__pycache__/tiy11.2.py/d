@@ -1,0 +1,4 @@
+def describe_city(city, country):
+    """Returns a formatted string representing the city and country."""
+    location = f"{city}, {country}"
+    return location.title()
